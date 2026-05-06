@@ -7,7 +7,7 @@
 
 ---
 
-**Live Dashboard:** [View Interactive Dashboard Here]([https://datastudio.google.com/embed/u/0/reporting/5c0c882f-a70e-4008-a4cf-dee78a94dc18/page/UWNxF])
+**Live Dashboard:** [View Interactive Dashboard Here](https://datastudio.google.com/embed/u/0/reporting/5c0c882f-a70e-4008-a4cf-dee78a94dc18/page/UWNxF)
 
 ---
 ## 📌 Project Overview
