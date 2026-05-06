@@ -29,12 +29,14 @@ A telco company is experiencing customer churn, resulting in a loss of Monthly R
 ## 🏗️ Project Structure
 ```text
 telco-churn-analysis/
-├── 📄 ingestion.py          # ETL: Schema validation & data cleaning
-├── 📄 transform.py          # Analytics: Feature engineering & business logic
-├── 📄 load.py               # Data Warehouse: Loading to DuckDB/BigQuery
+├── 📂 src/
+│    ├── 📄 ingestion.py          # ETL: Schema validation & data cleaning
+│    ├── 📄 transform.py          # Analytics: Feature engineering & business logic
+│    └── 📄 load.py               # Data Warehouse: Loading to DuckDB/BigQuery
 ├── 📂 data/
-│   ├── 📂 raw/              # Original dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv)
-│   └── 📂 processed/        # Cleaned and featured Parquet files
+│   ├── 📂 raw/                   # Original dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv)
+│   ├── 📂 processed/             # Cleaned and featured Parquet files
+│   └── 📄 telco_churn.duckdb     # database     
 ├── 📄 requirements.txt      # Project dependencies
 └── 📄 README.md             # Project documentation
 ```
