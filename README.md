@@ -32,7 +32,8 @@ telco-churn-analysis/
 ├── 📂 src/
 │    ├── 📄 ingestion.py          # ETL: Schema validation & data cleaning
 │    ├── 📄 transform.py          # Analytics: Feature engineering & business logic
-│    └── 📄 load.py               # Data Warehouse: Loading to DuckDB/BigQuery
+│    ├── 📄 load.py               # Data Warehouse: Loading to DuckDB/BigQuery
+│    └── 📄 export.py             # Data Export: Export Data for Looker Studio
 ├── 📂 data/
 │   ├── 📂 raw/                   # Original dataset (WA_Fn-UseC_-Telco-Customer-Churn.csv)
 │   ├── 📂 processed/             # Cleaned and featured Parquet files
