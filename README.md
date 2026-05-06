@@ -63,11 +63,15 @@ Download from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-
 
 ### 4. Run the Pipeline
 ```bash
-python analysis.py # ETL + SQL analytics
-python visualization.py # Create a chart
-python export.py # Export to Looker Studio
-```
+# 1. Clean the data
+python ingestion.py --input data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv    
 
+# 2. Apply transformations
+python transform.py
+
+# 3. Load to local DuckDB
+python load.py --target duckdb
+```
 ---
 
 ## 📊 Dashboard
