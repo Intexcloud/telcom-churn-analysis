@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+duckdb
+plotly
+python-dotenv
+pyarrow
+scikit-learn
+openpyxl
