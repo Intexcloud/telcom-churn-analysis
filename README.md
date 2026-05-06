@@ -19,7 +19,7 @@ A telco company is experiencing customer churn, resulting in a loss of Monthly R
 
 | Findings | Churn Rate | Actions |
 |--------|-----------|------|
-| Month-to-Month Contracts | 43% | Upsell to Annual Contracts |
+| Month to Month Contracts | 43% | Upsell to Annual Contracts |
 | Fiber Optic Internet | 42% | Price Review vs. Competitors |
 | Pay via Electronic Check | 45% | Encourage Auto-Pay |
 | Tenure < 12 months | 48% | 90-Day Onboarding Program |
