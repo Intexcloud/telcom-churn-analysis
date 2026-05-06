@@ -7,23 +7,25 @@
 
 ---
 
-## 🎯 Business Problem
-A telco company is experiencing customer churn, resulting in a loss of Monthly Recurring Revenue (MRR). This analysis identifies:
-- Customer segments most at risk of churn
-- Revenue at risk (MRR at risk)
-- Retention action recommendations for the business team
+**Live Dashboard:** [View Interactive Dashboard Here]([https://datastudio.google.com/embed/u/0/reporting/5c0c882f-a70e-4008-a4cf-dee78a94dc18/page/UWNxF])
+
+---
+## 📌 Project Overview
+Customer retention is highly critical in the telecommunications industry. The cost of acquiring a new customer is significantly higher than retaining an existing one. This project focuses on analyzing a Telco Customer Churn dataset to identify key drivers of customer attrition, quantify the Monthly Recurring Revenue (MRR) at risk, and provide data-driven recommendations to improve retention rates.
 
 ---
 
-## 💡 Key Insights
+### 🎯 Business Problem
+* **Revenue Threat:** The telecommunications company is experiencing continuous customer attrition (churn), which directly threatens the Monthly Recurring Revenue (MRR).
+* **Analytical Need:** The business must identify which customer segments are most likely to churn, pinpoint the specific lifecycle stage where drop-offs occur, and understand the driving factors.
+* **Strategic Goal:** By uncovering these patterns, the marketing and retention teams can implement proactive, data-driven strategies to minimize churn and secure long-term revenue.
+---
 
-| Findings | Churn Rate | Actions |
-|--------|-----------|------|
-| Month to Month Contracts | 43% | Upsell to Annual Contracts |
-| Fiber Optic Internet | 42% | Price Review vs. Competitors |
-| Pay via Electronic Check | 45% | Encourage Auto-Pay |
-| Tenure < 12 months | 48% | 90-Day Onboarding Program |
-
+### 💡 Key Insights
+* **The 12-Month Churn Cliff:** A massive drop-off occurs among month-to-month customers within their first 12 months of service (plunging from 1,955 to just 394 active users in the second year).
+* **High Financial Exposure:** The month-to-month segment is not only losing the most customers but also holds the largest concentration of Monthly Recurring Revenue (MRR) at risk.
+* **Long-Term Stability:** Customers on one-year and two-year contracts display highly stable retention heatmaps over time, proving that early commitment secures Customer Lifetime Value (LTV).
+* **Payment Method Friction:** Customers using manual payment methods, specifically Electronic Checks, show a significantly higher churn risk compared to those using automatic payments (Credit Card/Bank Transfer).
 ---
 
 ## 🏗️ Project Structure
